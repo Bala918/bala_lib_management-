@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bala_lib_management *.css
+recursive-include bala_lib_management *.csv
+recursive-include bala_lib_management *.html
+recursive-include bala_lib_management *.ico
+recursive-include bala_lib_management *.js
+recursive-include bala_lib_management *.json
+recursive-include bala_lib_management *.md
+recursive-include bala_lib_management *.png
+recursive-include bala_lib_management *.py
+recursive-include bala_lib_management *.svg
+recursive-include bala_lib_management *.txt
+recursive-exclude bala_lib_management *.pyc
